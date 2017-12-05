@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ne.jinoxst.mat.itg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" >
+    </uses-sdk>
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/ItemgarageTheme.NoShadow">
+        <activity
+            android:name="jp.ne.jinoxst.mat.itg.activity.MainTabs"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.ne.jinoxst.mat.itg.activity.OrderLeftMenuList" >
+        </activity>
+        <activity android:name="jp.ne.jinoxst.mat.itg.activity.OrderLeftMenuList$ItemList" >
+        </activity>
+        <activity android:name="jp.ne.jinoxst.mat.itg.activity.TabCart" >
+        </activity>
+        <activity android:name="jp.ne.jinoxst.mat.itg.activity.TabReprint" >
+        </activity>
+        <activity android:name="jp.ne.jinoxst.mat.itg.activity.TabSaleRecord" >
+        </activity>
+        <service android:name="jp.ne.jinoxst.mat.itg.service.CartCircleService"></service>
+    </application>
+
+</manifest>

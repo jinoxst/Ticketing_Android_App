@@ -1,0 +1,56 @@
+package jp.ne.jinoxst.mat.itg.util;
+
+import android.view.ViewGroup;
+
+public class Constant {
+    public static final String SRVER_URL = "test.itemgarage.ne.jp";
+    public static final String HTTPS = "https";
+    public static final int HTTPS_PORT = 443;
+    public static final String BASE_PATH = "itg";
+    public static final String DEFAULT_REQUEST = "req";
+    public static final String SERVICE_CODE_001 = "webapi001";
+    public static final String SERVICE_CODE_011 = "webapi011";
+    public static final String SERVICE_CODE_021 = "webapi021";
+    public static final String SERVICE_CODE_022 = "webapi022";
+    public static final String SERVICE_CODE_031 = "webapi031";
+    public static final String SERVICE_CODE_061 = "webapi061";
+    public static final String SERVICE_CODE_081 = "webapi081";
+    public static final String SERVICE_CODE_091 = "webapi091";
+    public static final String SERVICE_CODE_092 = "webapi092";
+    public static final String SERVICE_CODE_093 = "webapi093";
+    public static final String SERVICE_CODE_094 = "webapi094";
+    public static final String SERVICE_CODE_095 = "webapi095";
+    public static final String SERVICE_CODE_096 = "webapi096";
+    public static final String LOGIN_ID = "sid";
+    public static final String LOGIN_PW = "cypher_pass";
+    public static final String LASTSEQNO = "lastseqno";
+    public static final String MACADDRESS = "macaddress";
+    public static final String EMMSEQ = "emm_seq";
+    public static final String EMMID = "emm_id";
+    public static final String ORDER_MATRIX = "order_matrix";
+    public static final String OID = "oid";
+    public static final String YMD = "ymd";
+    public static final String YM = "ym";
+    public static final String YEAR = "year";
+    public static final String DATABASE_NAME = "itemgarage.db";
+    public static final int DATABASE_VERSION = 1;
+    public static final int CATEGORY_TYPE_PREPAID = 1;
+    public static final int CATEGORY_TYPE_GAME = 2;
+    public static final String CART_TOTAL_COUNT = "CART_TOTAL_COUNT";
+    public static final String MAIN_TABS = "MainTabs";
+    public static final String SELECTED_TAB_INDEX = "SELECTED_TAB_INDEX";
+    public static final int SELECTED_TAB_INDEX_0 = 0;
+    public static final int SELECTED_TAB_INDEX_1 = 1;
+    public static final int SELECTED_TAB_INDEX_2 = 2;
+    public static final int SELECTED_TAB_INDEX_3 = 3;
+    public static final int MP = ViewGroup.LayoutParams.MATCH_PARENT;
+    public static final int WC = ViewGroup.LayoutParams.WRAP_CONTENT;
+    public static final String PRINT_ADDRESS = "Print_IP_Address";
+    public static final String PRINT_MODEL = "Print_Model";
+    public static final String RECEIPT_NEWLINE = "_NL_";
+    public static final int SALES_CHANNEL_ALL = 0;
+    public static final int SALES_CHANNEL_ONLY_WEBAPPLICATION = 1;
+    public static final int SALES_CHANNEL_ONLY_API = 2;
+    public static final int CART_MAX_COUNT = 10;
+    public static final int REISSUELIST_NOT_EXIST = 601;
+}
